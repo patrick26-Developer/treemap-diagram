@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .tile {
+    stroke: #fff;
+  }
+  
+  .legend-item {
+    stroke: #000;
+  }
+  
+  #tooltip {
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+    font-size: 12px;
+  }
